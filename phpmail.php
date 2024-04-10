@@ -13,8 +13,8 @@ $mail = new PHPMailer();
 // $mail->isSMTP();                   // Отправка через SMTP
 $mail->Host   = "smtp.mail.ru";  // Адрес SMTP сервера
 $mail->SMTPAuth   = true;          // Enable SMTP authentication
-$mail->Username   = "senerks@mail.com";       // ваше имя пользователя (без домена и @)
-$mail->Password   = "SenyaAleks22331";    // ваш пароль
+$mail->Username   = "techsolutin.pro@mail.ru";       // ваше имя пользователя (без домена и @)
+$mail->Password   = "TaU_TrPuiu42";    // ваш пароль
 $mail->SMTPSecure = "ssl";         // шифрование ssl
 $mail->Port   = 465;  
 
